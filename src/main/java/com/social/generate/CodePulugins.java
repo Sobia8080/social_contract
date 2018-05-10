@@ -1,5 +1,6 @@
 package com.social.generate;
 
+
 import com.speed.klutz.Generate;
 import com.speed.klutz.controller.ControllerGenerator;
 import com.speed.klutz.dao.DaoGenerator;
