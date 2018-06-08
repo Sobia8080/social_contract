@@ -1,4 +1,4 @@
-package com.social.service.impl.activity;
+package com.social.service.activity.impl.activity;
 
 import com.social.entity.bean.activity.ActivityCategory;
 import com.social.mapper.activity.ActivityCategoryMapper;

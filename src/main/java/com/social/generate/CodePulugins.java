@@ -40,7 +40,7 @@ public class CodePulugins {
 		//系统记录
 //		tableNames.add("user_login_records");
 //		tableNames.add("systerm_operation_records");
-		tableNames.add("contract_rebates_product");
+		tableNames.add("lock_config");
 		    
 		//标签 - 系统标签
 //		tableNames.add("hobby_lable");
@@ -100,8 +100,8 @@ public class CodePulugins {
 		daoGenerator.generateTableForEntity(tableNames);
 //
 //		//生成Mapper接口
-//		//daoGenerator.generateTableForMapper();
-//		daoGenerator.generateTableForMapper(tableNames);
+		//daoGenerator.generateTableForMapper();
+		daoGenerator.generateTableForMapper(tableNames);
 //
 //		//生成Xml
 //		//daoGenerator.generateTableForMapperXml();

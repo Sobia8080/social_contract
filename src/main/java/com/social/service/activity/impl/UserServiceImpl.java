@@ -1,4 +1,4 @@
-package com.social.service.impl;
+package com.social.service.activity.impl;
 
 import com.social.entity.User;
 import com.social.service.UserService;
