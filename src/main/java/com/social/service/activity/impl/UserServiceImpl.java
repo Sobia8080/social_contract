@@ -14,7 +14,7 @@ public class UserServiceImpl implements UserService {
         User user = new User();
         user.setAge(10);
         user.setName(name);
-        user.setRemark("remark");
+        user.setRemark("单例模式");
         return user;
     }
 }

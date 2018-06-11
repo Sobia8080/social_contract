@@ -11,17 +11,17 @@ public class Liufangrui implements Person{
 
     @Override
     public void sendMessage() {
-        System.out.println("first remark");
-        System.out.println("second remark");
-        System.out.println("third remark");
+        System.out.println("first 单例模式");
+        System.out.println("second 单例模式");
+        System.out.println("third 单例模式");
         System.out.println(sex+"---"+name);
     }
 
     @Override
     public void sendOldMessage() {
-        System.out.println("old first remark");
-        System.out.println("old second remark");
-        System.out.println("old third remark");
+        System.out.println("old first 单例模式");
+        System.out.println("old second 单例模式");
+        System.out.println("old third 单例模式");
         System.out.println(sex+"-- old --"+name);
     }
 
