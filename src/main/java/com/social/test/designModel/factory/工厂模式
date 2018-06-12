@@ -1,1 +1,23 @@
 工厂模式：
+@Override
+    public <T extends Human> T createHuman(Class<T> c) {
+        Human human = null;
+        try {
+            human = (T)Class.forName(c.getName()).newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return (T) human;
+    }
+
+这段是核心 human = (T)Class.forName(c.getName()).newInstance();
+用到了泛型
+疑问：
+Human是接口，<T extends Human> T继承了接口
+
+
+拓展：
+abstract class
+抽象类，不能实例化，方法不能实例化，只能子类来实例化
+interface
+接口只能实现类能实现接口中的方法
