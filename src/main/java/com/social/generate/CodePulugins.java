@@ -40,7 +40,7 @@ public class CodePulugins {
 		//系统记录
 //		tableNames.add("user_login_records");
 //		tableNames.add("systerm_operation_records");
-		tableNames.add("lock_config");
+		tableNames.add("scs_delivery_time");
 		    
 		//标签 - 系统标签
 //		tableNames.add("hobby_lable");

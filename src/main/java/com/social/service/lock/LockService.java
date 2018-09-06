@@ -9,4 +9,17 @@ public interface LockService {
 
     //解锁
     boolean releaseLock();
+
+    boolean addZkLockApi();
+
+    boolean releaseZkLockApi();
+
+    boolean addZkClientLock();
+
+    boolean releaseZkClientLock();
+
+    boolean addZkCuratorLock();
+
+    boolean releaseZkCuratorLock();
+
 }
