@@ -36,6 +36,8 @@
 			<version>1.3.2</version>
 		</dependency>
 
+
+
 		<!-- tomcat 的支持.-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -162,6 +164,32 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.15</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+
+		<!-- mybatis plus 代码生成器依赖 -->
+		<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-generator -->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-generator</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
 		</dependency>
 
 	</dependencies>

@@ -54,6 +54,7 @@ public class SessionFactoryConfig implements TransactionManagementConfigurer {
 		return new SqlSessionTemplate(sqlSessionFactory);
 	}
 
+	@Override
 	@Bean
 	public PlatformTransactionManager annotationDrivenTransactionManager() {
 		return new DataSourceTransactionManager(dataSource);
